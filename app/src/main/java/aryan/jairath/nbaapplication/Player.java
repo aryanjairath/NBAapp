@@ -168,7 +168,6 @@ public class Player implements Parcelable {
         Weight = weight;
     }
     // Getters
-    // Add getters for all the fields
     protected Player(Parcel in) {
         PlayerID = in.readInt();
         FirstName = in.readString();
